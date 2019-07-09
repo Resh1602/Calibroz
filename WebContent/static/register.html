@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<title></title>
+<link rel="stylesheet"
+	href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+	integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+	crossorigin="anonymous">
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+	integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+	crossorigin="anonymous"></script>
+<script
+	src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+	integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+	crossorigin="anonymous"></script>
+<script
+	src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+	integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+	crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+	<form action="doRegister" method="post">
+		<div class="container">
+			<h3>Register here</h3>
+			<div class="form-row">
+				<div class="form-group col-md-6">
+					<label>First Name</label> <input type="text" class="form-control"
+						id="fnameId" name="fname" placeholder="First Name">
+				</div>
+				<div class="form-group col-md-6">
+					<label>Last Name</label> <input type="text" class="form-control"
+						id="lnameId" name="lname" placeholder="Last Name">
+				</div>
+			</div>
+			<div class="form-group">
+				<label>Address</label>
+				<textarea class="form-control" name="add" id="addId"
+					rows="4"></textarea>
+			</div>
+			<div class="form-row">
+				<div class="form-group col-md-6">
+					<label>City</label> <input type="text"
+						class="form-control" name="city" id="cityId">
+				</div>
+				<div class="form-group col-md-4">
+					<label for="inputState">State</label> <select id="selectId"
+						class="form-control" name="state">
+						<option selected>Choose...</option>
+						<option value="Andaman and Nicobar Islands">Andaman and
+							Nicobar Islands</option>
+						<option value="Andhra Pradesh">Andhra Pradesh</option>
+						<option value="Arunachal Pradesh">Arunachal Pradesh</option>
+						<option value="Assam">Assam</option>
+						<option value="Bihar">Bihar</option>
+						<option value="Chandigarh">Chandigarh</option>
+						<option value="Chhattisgarh">Chhattisgarh</option>
+						<option value="Dadra and Nagar Haveli">Dadra and Nagar
+							Haveli</option>
+						<option value="Daman and Diu">Daman and Diu</option>
+						<option value="Delhi">Delhi</option>
+						<option value="Goa">Goa</option>
+						<option value="Gujarat">Gujarat</option>
+						<option value="Haryana">Haryana</option>
+						<option value="Himachal Pradesh">Himachal Pradesh</option>
+						<option value="Jammu and Kashmir">Jammu and Kashmir</option>
+						<option value="Jharkhand">Jharkhand</option>
+						<option value="Karnataka">Karnataka</option>
+						<option value="Kerala">Kerala</option>
+						<option value="Lakshadweep">Lakshadweep</option>
+						<option value="Madhya Pradesh">Madhya Pradesh</option>
+						<option value="Maharashtra">Maharashtra</option>
+						<option value="Manipur">Manipur</option>
+						<option value="Meghalaya">Meghalaya</option>
+						<option value="Mizoram">Mizoram</option>
+						<option value="Nagaland">Nagaland</option>
+						<option value="Orissa">Orissa</option>
+						<option value="Pondicherry">Pondicherry</option>
+						<option value="Punjab">Punjab</option>
+						<option value="Rajasthan">Rajasthan</option>
+						<option value="Sikkim">Sikkim</option>
+						<option value="Tamil Nadu">Tamil Nadu</option>
+						<option value="Tripura">Tripura</option>
+						<option value="Uttaranchal">Uttaranchal</option>
+						<option value="Uttar Pradesh">Uttar Pradesh</option>
+						<option value="West Bengal">West Bengal</option>
+					</select>
+				</div>
+				<div class="form-group col-md-2">
+					<label>Pincode</label> <input type="text"
+						class="form-control" name="pin" id="pinId">
+				</div>
+
+				<div class="form-group col-md-4">
+					<label>Upload pic</label> <input
+						type="file" class="form-control-file" name="pic" id="picId">
+				</div>
+				<div class="form-group col-md-4">
+					<label>Upload your aadhar</label> <input
+						type="file" class="form-control-file" name="aadhar" id="adrId">
+				</div>
+			</div>
+			<button type="submit" class="btn btn-primary">Register</button>
+		</div>
+	</form>
+</body>
+
+</html>
