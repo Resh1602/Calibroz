@@ -22,6 +22,7 @@ public class RequestHandler {
 
 	public static String getRequiredUrlPattern(HttpServletRequest req) {
 		String uri = req.getRequestURI();
+		System.out.println();
 		String urlSegment = uri.substring(10);
 		System.out.println(urlSegment);
 		return urlSegment;

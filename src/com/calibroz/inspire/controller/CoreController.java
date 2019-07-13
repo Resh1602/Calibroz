@@ -13,7 +13,7 @@ import com.calibroz.inspire.controller.util.RequestHandler;
 /**
  * Servlet implementation class CoreController
  */
-@WebServlet("/app/")
+@WebServlet("/app/*")
 public class CoreController extends HttpServlet {
 	private static final long serialVersionUID = 1L;
        
